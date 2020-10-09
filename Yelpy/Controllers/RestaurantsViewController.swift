@@ -20,6 +20,8 @@ class RestaurantsViewController: UIViewController {
     
     
     // ––––– TODO: Add tableView datasource + delegate
+    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var label: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
